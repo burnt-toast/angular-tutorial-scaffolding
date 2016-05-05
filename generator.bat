@@ -15,7 +15,7 @@ echo Creating package.json file
  echo   "typings": "typings",
  echo   "postinstall": "typings install"
  echo },
- echo "license": "ISC",
+ echo "license": "MIT",
  echo "dependencies": {
  echo   "angular2": "2.0.0-beta.14",
  echo   "systemjs": "0.19.25",
@@ -32,7 +32,7 @@ echo Creating package.json file
  echo }
  echo }
 
-) > "package.json" 
+) > "package.json"
 
 echo creating tsconfig.json
 
